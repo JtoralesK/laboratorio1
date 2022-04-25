@@ -1,0 +1,32 @@
+Algoritmo sin_titulo
+	v = 0
+	mayor = 0
+	cuentaPosiciones = 0
+	posicion = 0
+	contador = -1
+	Mientras contador!=0 Hacer
+		Leer n
+		cuentaPosiciones = cuentaPosiciones+1
+		contador = n
+		Si v==0 Entonces
+			Si n!=0 Entonces
+				mayor = n
+				v = v+1
+				posicion = cuentaPosiciones
+			FinSi
+		SiNo
+			Si n>mayor Entonces
+				Si n!=0 Entonces
+					mayor = n
+					posicion = cuentaPosiciones
+				FinSi
+			FinSi
+		FinSi
+	FinMientras
+	Si mayor!=0 Entonces
+		Escribir 'el mayor es:',mayor
+		Escribir 'su posicion es:',posicion
+	SiNo
+		Escribir "no hay lista"
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	cont = 1
+	v = 0
+	vueltapri = 0
+	vueltase = 0
+	contIm = 1
+	Mientras cont!=0 Hacer
+		Leer n
+		cont = n
+		resto = n%2
+		v = v+1
+		Si resto!=0 Entonces
+			Si contIm==1 Entonces
+				vueltapri = v
+				vueltase = v
+			FinSi
+			Si contIm==2 Entonces
+				vueltase = v
+			FinSi
+			contIm = contIm+1
+		FinSi
+	FinMientras
+	Escribir 'primer inpar,posicion:',vueltapri
+	Escribir 'segundo inpar,posicion:',vueltase
+FinAlgoritmo

@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	mayor = 0
+	menor = 0
+	Escribir "ingresa un numero"
+	Leer a
+	Escribir "ingresa otro numero"
+	Leer b
+	Si a>b Entonces
+		mayor = a
+		menor = b
+	SiNo
+		mayor = b
+		menor = a
+	FinSi
+	Mientras menor!=(mayor+1) Hacer
+		Escribir menor
+		menor = menor+1
+	FinMientras
+FinAlgoritmo

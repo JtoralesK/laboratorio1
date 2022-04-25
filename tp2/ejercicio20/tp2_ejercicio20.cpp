@@ -18,7 +18,7 @@ Ejemplo 3. Si el empleado trabajó 52 horas, se le abonará 40 x 300 + 10 x 450 + 
 using namespace std;
 
 int main(){
-int h,resultado;
+int h,s01,resultado;
 cout<<"ingresar horas trabajadas:";
 cin>>h;
 resultado=0;

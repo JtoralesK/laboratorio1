@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	cont = 1
+	mayor = 0
+	segundoMayor = 0
+	v = 0
+	Mientras cont!=0 Hacer
+		Leer n
+		Si n!=0 Entonces
+			Si v==0 Entonces
+				mayor = n
+				segundoMayor = n
+				v = v+1
+			SiNo
+				Si n>=mayor Entonces
+					segundoMayor = mayor
+					mayor = n
+				FinSi
+			FinSi
+		FinSi
+		cont = n
+	FinMientras
+	Escribir "el mayor de la lista:",mayor
+	Escribir "el 2do mayor:",segundoMayor
+FinAlgoritmo

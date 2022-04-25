@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	contador = 1
+	Escribir "ingresa un numero:"
+	Leer n
+	Mientras contador!=(n+1) Hacer
+		Escribir contador
+		contador = contador+1
+	FinMientras
+FinAlgoritmo

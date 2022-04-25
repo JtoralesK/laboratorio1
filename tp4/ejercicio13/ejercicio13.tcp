@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	cont = 1
+	v = 0
+	ante = 0
+	ulti = 0
+	Mientras cont!=0 Hacer
+		Leer n
+		cont = n
+		resto = n%2
+		Si resto!=0 Entonces
+			Si v==0 Entonces
+				ante = n
+				ulti = n
+				v = v+1
+			SiNo
+				ante = ulti
+				ulti = n
+			FinSi
+		FinSi
+	FinMientras
+	Escribir "anteultimo inpar:",ante
+	Escribir "ultimo inpar",ulti
+FinAlgoritmo

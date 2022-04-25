@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	v = 0
+	mayor = 0
+	menor = 0
+	contador = -1
+	Mientras contador!=0 Hacer
+		Leer n
+		contador = n
+		Si v==0 Entonces
+			Si n!=0 Entonces
+				mayor = n
+				menor = n
+				v = v+1
+			FinSi
+		SiNo
+			prueba = n<menor
+			Escribir prueba
+			Si n<menor Entonces
+				Si n=!0 Entonces
+					menor = n
+					Escribir menor,"menor"
+				FinSi
+			FinSi
+			Si n>mayor Entonces
+				Si n!=0 Entonces
+					mayor = n
+					Escribir mayor,"mayor"
+				FinSi
+			FinSi
+		FinSi
+	FinMientras
+	Escribir "el menor es:",menor
+	Escribir 'el mayor es:',mayor
+FinAlgoritmo

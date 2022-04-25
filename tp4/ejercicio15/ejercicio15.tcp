@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	cont = 1
+	mayor = 0
+	v = 0
+	ordenado = verdadero
+	Mientras cont!=0 Hacer
+		Leer n
+		Si n!=0 Entonces
+			Si v==0 Entonces
+				mayor = n
+				v = v+1
+			SiNo
+				Si n>=mayor Entonces
+					Escribir "es mayor"
+					Si ordenado!=falso Entonces
+						ordenado = verdadero
+					FinSi
+				SiNo
+					Escribir "menor"
+					ordenado = falso
+				FinSi
+			FinSi
+		FinSi
+		cont = n
+	FinMientras
+	Si ordenado Entonces
+		Escribir "conjunto ordenado"
+	SiNo
+		Escribir "conjunto desordenado"
+	FinSi
+FinAlgoritmo

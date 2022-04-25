@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	cont = verdadero
+	v = 0
+	base = 0
+	mayor = 0
+	Mientras cont==verdadero Hacer
+		Leer n
+		Si cont==verdadero Entonces
+			Si v==0 Entonces
+				mayor = n
+				base = n
+				v = v+1
+			SiNo
+				Si n>=0 Entonces
+					Si base>=0 Entonces
+						cont = falso
+					FinSi
+				FinSi
+				base = n
+				Si n>mayor  Entonces
+					Si cont==verdadero Entonces
+						mayor = n
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinMientras
+	Escribir 'el mayor",mayor
+FinAlgoritmo

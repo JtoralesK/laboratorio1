@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	contador = -1
+	mayorne = 0
+	menorpo = 0
+	v = 0
+	vn = 0
+	Mientras contador!=0 Hacer
+		Leer n
+		contador = n
+		Si n!=0 Entonces
+			Si n>0 Entonces
+				Si v==0 Entonces
+					menorpo = n
+					v = v+1
+				SiNo
+					Si n<menorPo Entonces
+						menorpo = n
+					FinSi
+				FinSi
+			SiNo
+				Si vn==0 Entonces
+					mayorne = n
+					vn = v+1
+				SiNo
+					Si n>mayorne Entonces
+						mayorne = n
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinMientras
+	Escribir "mayor de los negativos:",mayorne
+	Escribir "menor de los positivos",menorpo
+FinAlgoritmo

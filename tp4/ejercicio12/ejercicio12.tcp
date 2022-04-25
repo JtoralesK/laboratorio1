@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	contador = 1
+	v = 0
+	primerImpar = 0
+	ultimoImpar = 0
+	Mientras contador!=0 Hacer
+		Leer n
+		contador = n
+		resto = n%2
+		Si resto!=0 Entonces
+			Si v==0 Entonces
+				primerImpar = n
+				ultimoImpar = n
+				v = v+1
+			SiNo
+				ultimoImpar = n
+			FinSi
+		FinSi
+	FinMientras
+	Escribir "primer impar:",primerImpar
+	Escribir "ultimo impar",ultimoImpar
+FinAlgoritmo

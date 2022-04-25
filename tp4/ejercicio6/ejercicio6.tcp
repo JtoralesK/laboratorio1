@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	contador = -1
+	positivos = 0
+	negativos = 0
+	Mientras contador!=0 Hacer
+		Escribir "ingresar un numero"
+		Leer n
+		Si n>=0 Entonces
+			positivos = positivos+1
+		SiNo
+			negativos = negativos+1
+		FinSi
+		contador = n
+	FinMientras
+	Escribir "los positivos son:",positivos-1
+	Escribir "los negativos son:",negativos
+FinAlgoritmo
