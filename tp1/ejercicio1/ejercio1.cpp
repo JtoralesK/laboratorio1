@@ -12,12 +12,8 @@ corresponda.
 using namespace std;
 
 int main(){
-int horasTrabajadas,valorXHora,sueldo;
-cout<<"ingresar horas trabajadas:";
-cin>>horasTrabajadas;
-cout<<"ingresar valor por hora trabajada:";
-cin>>valorXHora;
-sueldo=horasTrabajadas*valorXHora;
-cout<<"Tu sueldo es de:"<<sueldo;
+int a=5,b=3,c=6;
+a=(b-c);
+cout<<a;
 return 0 ;
 }
